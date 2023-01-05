@@ -1,0 +1,17 @@
+title = "My Account"
+layout = "default"
+url = "/my-account"
+
+[session]
+security = "all"
+
+[account]
+paramCode = "code"
+forceSecure = 0
+requirePassword = 0
+==
+{% component 'session' %}
+
+
+
+{% component 'account' %}
